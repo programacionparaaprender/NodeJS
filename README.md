@@ -10,6 +10,7 @@
 >- nvm install 12.22.12 x64
 >- nvm install 18.8.0 x64
 >- nvm ls
+>- nvm use 12.22.12
 
 ### comandos
 >- node app
