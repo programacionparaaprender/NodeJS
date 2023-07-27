@@ -18,3 +18,7 @@
 ### comandos
 >- node app
 >- node app.js
+
+### probar archivos
+>- nodemon creatingfile.js
+>- nodemon readfile.js
