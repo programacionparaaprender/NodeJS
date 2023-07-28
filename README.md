@@ -20,5 +20,5 @@
 >- node app.js
 
 ### probar archivos
->- nodemon creatingfile.js
->- nodemon readfile.js
+>- node creatingfile.js
+>- node readfile.js
