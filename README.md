@@ -22,3 +22,6 @@
 ### probar archivos
 >- node creatingfile.js
 >- node readfile.js
+
+### documentación node
+>- https://nodejs.org/api/path.html#pathparsepath
