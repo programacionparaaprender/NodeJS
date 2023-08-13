@@ -1,11 +1,14 @@
 const fs = require('fs');
-
-try{
-    const fs = require('fs');
-    fs.appendFileSync('fileName.txt', '\nAdd New Data');
+fs.appendFile('fileName.txt', '\nNew Data From AppendFile Method', (err)=>{
+    if(err){
+        throw err;
+    }
     console.log('Data successfully added');
-    const data = fs.readFileSync('fileName.txt', 'utf8');
-    console.log(data);
-}catch(err){
-    console.log(err);
-}
+    try{
+        const fs = require('fs');
+        const data = fs.readFileSync('fileName.txt', 'utf8');
+        console.log(data);
+    }catch(err){
+        console.log(err);
+    }
+});
